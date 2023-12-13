@@ -1,0 +1,90 @@
+body {
+  background-color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.header {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.header__img {
+  width: 300px;
+  height: 300px;
+}
+
+.header__title {
+  font-size: 30px;
+}
+
+.header__subtitle {
+  color: #2165c5;
+}
+
+.line {
+  width: 50%;
+  height: 3px;
+  background-color: #990a0a;
+}
+
+.main {
+  border: 1px solid darkgray;
+  text-align: center;
+}
+
+.video__youtube {
+  width: 800px;
+  height: 450px;
+  border: none;
+}
+
+.ed__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ed__table th,
+.ed__table td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+.quote__title {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(31, 204, 80);
+}
+
+.form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form__control {
+  width: 100%;
+}
+
+.form__control-textarea {
+  width: 70%;
+}
+
+.form__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.footer{
+  display: block;
+  height: 100px;
+  text-align: center;
+  color: rgba(229, 235, 239, 0.395);
+}
+.footer__link{
+  text-decoration: none;
+  color: #0c100ed9;
+}
